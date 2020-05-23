@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 21 16:45:02 CST 2020","Thu May 21 16:45:02 CST 2020","241","testcase_page","test_case","Testcase","","","test01[datainfo0]",""
+"passed","Thu May 21 16:45:02 CST 2020","Thu May 21 16:45:02 CST 2020","92","testcase_page","test_case","Testcase","","","test01[datainfo1]",""
+"passed","Thu May 21 16:45:02 CST 2020","Thu May 21 16:45:02 CST 2020","92","testcase_page","test_case","Testcase","","","test01[datainfo2]",""
+"passed","Thu May 21 16:45:02 CST 2020","Thu May 21 16:45:03 CST 2020","322","testcase_page","test_case","Testcase","","","test01[datainfo3]",""

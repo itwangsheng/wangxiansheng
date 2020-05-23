@@ -1,0 +1,92 @@
+{
+  "uid" : "78912c687cd0b861",
+  "name" : "test01",
+  "fullName" : "casepage.test_pytest.Testcase#test01",
+  "historyId" : "2909e1abfa0d7696865cd420ee356d2c",
+  "time" : {
+    "start" : 1589789259571,
+    "stop" : 1589789285291,
+    "duration" : 25720
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'e' referenced before assignment",
+  "statusTrace" : "self = <casepage.test_pytest.Testcase object at 0x000000000406D430>, read_yaml = ['cc', 'http://39.98.138.157/shopxo/index.php']\n\n    @pytest.mark.g1\n    @pytest.mark.usefixtures('read_yaml')\n    def test01(self,read_yaml):\n        # print(*read_yaml)\n        b = login(*read_yaml)\n        try:\n            b.login_info()\n        except Exception as e:\n            b.ox_attach()\n>       raise e\nE       UnboundLocalError: local variable 'e' referenced before assignment\n\ncasepage\\test_pytest.py:31: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "read_yaml",
+    "time" : {
+      "start" : 1589789259570,
+      "stop" : 1589789259570,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'e' referenced before assignment",
+    "statusTrace" : "self = <casepage.test_pytest.Testcase object at 0x000000000406D430>, read_yaml = ['cc', 'http://39.98.138.157/shopxo/index.php']\n\n    @pytest.mark.g1\n    @pytest.mark.usefixtures('read_yaml')\n    def test01(self,read_yaml):\n        # print(*read_yaml)\n        b = login(*read_yaml)\n        try:\n            b.login_info()\n        except Exception as e:\n            b.ox_attach()\n>       raise e\nE       UnboundLocalError: local variable 'e' referenced before assignment\n\ncasepage\\test_pytest.py:31: UnboundLocalError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "827a8cf2177f8005",
+      "name" : "denglu",
+      "source" : "827a8cf2177f8005.png",
+      "type" : "image/png",
+      "size" : 208771
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "g1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "casepage"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "YQZ9SLS9R78ZP4U"
+  }, {
+    "name" : "thread",
+    "value" : "7264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "casepage.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "g1" ]
+  },
+  "source" : "78912c687cd0b861.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase_page",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "Testcase",
+        "children" : [ {
+          "name" : "test01[datainfo0]",
+          "uid" : "b3812d088e9b404c",
+          "parentUid" : "9ab1f55ffe6c414fd557230ecacbce06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590050702315,
+            "stop" : 1590050702556,
+            "duration" : 241
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'apiname': 'apkLogin', 'request': {'method': 'post', 'files': None, 'data': {'mobile': '13922862325', 'imsi': 'sssdsfsdf'}, 'headers': None}, 'validate': {'stutas': '0'}}" ]
+        }, {
+          "name" : "test01[datainfo1]",
+          "uid" : "8543093e0f172d33",
+          "parentUid" : "9ab1f55ffe6c414fd557230ecacbce06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590050702562,
+            "stop" : 1590050702654,
+            "duration" : 92
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'apiname': 'addDoor', 'request': {'method': 'post', 'files': None, 'data': {'tddid': 'V10019100011143', 'networkflag': 'N', 'site': '惠州'}, 'headers': None}, 'validate': {'stutas': '0'}}" ]
+        }, {
+          "name" : "test01[datainfo2]",
+          "uid" : "cfba243ecaa0c6aa",
+          "parentUid" : "9ab1f55ffe6c414fd557230ecacbce06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590050702659,
+            "stop" : 1590050702751,
+            "duration" : 92
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'apiname': 'queryDoor', 'request': {'method': 'post', 'files': None, 'data': {'username': '', 'tddid': 'V10019100011143'}, 'headers': None}, 'validate': {'tddid': 'V10019100011143'}}" ]
+        }, {
+          "name" : "test01[datainfo3]",
+          "uid" : "fb0a144bd965a603",
+          "parentUid" : "9ab1f55ffe6c414fd557230ecacbce06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1590050702755,
+            "stop" : 1590050703077,
+            "duration" : 322
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'apiname': 'addFaceImageInfo', 'request': {'method': 'post', 'files': \"([('faceImageFile', open(r'E:\\\\jiekou_work\\\\images\\\\1.png','rb'))])\", 'data': {'tddid': 'V10019100011250', 'relateImageName': 'test'}, 'headers': {'Content-Type': 'application/x-www-form-urlencoded'}}, 'validate': {'status': 0}}" ]
+        } ],
+        "uid" : "9ab1f55ffe6c414fd557230ecacbce06"
+      } ],
+      "uid" : "d7f8e4cc7251767d36182ff86952a29f"
+    } ],
+    "uid" : "a2531dcd57e60daaccd46d154661c4d8"
+  } ]
+}

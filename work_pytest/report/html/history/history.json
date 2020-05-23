@@ -1,0 +1,41 @@
+{
+  "2909e1abfa0d7696865cd420ee356d2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "773ac3734739c44e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[4]/div/div[2]/div[2]/form/div[2]/input1\"}\n  (Session info: chrome=81.0.4044.138)",
+      "time" : {
+        "start" : 1589789418988,
+        "stop" : 1589789447016,
+        "duration" : 28028
+      }
+    } ]
+  },
+  "e0471bc8131acb231f9d600254cb2c81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "606c56178ff97384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589789447344,
+        "stop" : 1589789447344,
+        "duration" : 0
+      }
+    } ]
+  }
+}

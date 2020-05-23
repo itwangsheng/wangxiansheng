@@ -1,0 +1,74 @@
+{
+  "uid" : "d08fd0718ff1e5d6",
+  "name" : "test01",
+  "fullName" : "casepage.test_pytest.Testcase#test01",
+  "historyId" : "2909e1abfa0d7696865cd420ee356d2c",
+  "time" : {
+    "start" : 1589787262109,
+    "stop" : 1589787283347,
+    "duration" : 21238
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'E:\\\\config/attach/1.png'",
+  "statusTrace" : "self = <casepage.test_pytest.Testcase object at 0x000000000404E820>, read_yaml = ['cc', 'http://39.98.138.157/shopxo/index.php']\n\n    @pytest.mark.g1\n    @pytest.mark.usefixtures('read_yaml')\n    def test01(self,read_yaml):\n        # print(*read_yaml)\n        b = login(*read_yaml)\n>       b.login_info()\n\ncasepage\\test_pytest.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsendinfo_page\\oxlogin.py:29: in login_info\n    self.ox_attach()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <sendinfo_page.oxlogin.login object at 0x000000000404E8B0>\n\n    def ox_attach(self):\n        file_name=path+r'/attach/1.png'\n        self.driver.save_screenshot(file_name)#截图函数\n>       with open(file_name,'rb') as file:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'E:\\\\config/attach/1.png'\n\nbesapage\\besaobject.py:41: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "read_yaml",
+    "time" : {
+      "start" : 1589787262107,
+      "stop" : 1589787262108,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "g1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "casepage"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "YQZ9SLS9R78ZP4U"
+  }, {
+    "name" : "thread",
+    "value" : "7960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "casepage.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "g1" ]
+  },
+  "source" : "d08fd0718ff1e5d6.json",
+  "parameterValues" : [ ]
+}

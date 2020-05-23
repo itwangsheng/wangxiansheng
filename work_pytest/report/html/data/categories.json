@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[4]/div/div[2]/div[2]/form/div[2]/input1\"}\n  (Session info: chrome=81.0.4044.138)",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "773ac3734739c44e",
+        "parentUid" : "6ede43fe975ca62e62604f0e97d9f5fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589789418988,
+          "stop" : 1589789447016,
+          "duration" : 28028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ede43fe975ca62e62604f0e97d9f5fb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

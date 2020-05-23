@@ -1,0 +1,3 @@
+INFO     test:baseobject.py:98 -->>>开始测试用例4，这是接口url：http://twm.mikimobile.com:8023/addFaceImageInfo
+INFO     test:baseobject.py:99 这是接口入参：{'tddid': 'V10019100011250', 'relateImageName': 'test'}
+INFO     test:baseobject.py:100 这是请求头：None，这是接口返回值：{'status': 0, 'remark': '身份识别信息上传成功'}

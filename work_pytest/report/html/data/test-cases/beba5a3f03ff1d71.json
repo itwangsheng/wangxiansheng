@@ -1,0 +1,57 @@
+{
+  "uid" : "beba5a3f03ff1d71",
+  "name" : "test02",
+  "fullName" : "casepage.test_pytest.Testcase#test02",
+  "historyId" : "e0471bc8131acb231f9d600254cb2c81",
+  "time" : {
+    "start" : 1589787233150,
+    "stop" : 1589787233150,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "g2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "casepage"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "YQZ9SLS9R78ZP4U"
+  }, {
+    "name" : "thread",
+    "value" : "5136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "casepage.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "g2" ]
+  },
+  "source" : "beba5a3f03ff1d71.json",
+  "parameterValues" : [ ]
+}
