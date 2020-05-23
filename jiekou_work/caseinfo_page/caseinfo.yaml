@@ -20,8 +20,9 @@
         success: True
         loginname: user6
 
+#公司项目不提供演示
 #-
-#    apiname: apkLogin
+#    apiname: xxx
 #    request:
 #        method: post
 #        files :
@@ -31,7 +32,7 @@
 #        stutas: "0"
 #
 #-
-#    apiname: addDoor
+#    apiname: xxx
 #    request:
 #        method: post
 #        files :
@@ -41,7 +42,7 @@
 #        stutas: "0"
 #
 #-
-#    apiname: queryDoor
+#    apiname: xxx
 #    request:
 #        method: post
 #        files :
@@ -50,7 +51,7 @@
 #    validate: #验证结果
 #        tddid: "V10019100011143"
 #-
-#    apiname: addFaceImageInfo
+#    apiname: xxx
 #    request:
 #        method: post
 #        files: ([('faceImageFile', open(r'D:\自动化框架\jiekou_work\images\1.png','rb'))])

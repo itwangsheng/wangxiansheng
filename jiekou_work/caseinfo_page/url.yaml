@@ -3,4 +3,4 @@ api_url:
      on_line: http://39.98.138.157:5001/api/    #开发环境
 
 miki_url:
-     test_api: http://twm.mikimobile.com:8023/  #测试环境
+     test_api:   #公司测试环境（不提供）

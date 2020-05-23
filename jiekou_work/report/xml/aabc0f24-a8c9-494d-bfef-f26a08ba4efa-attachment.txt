@@ -1,3 +1,0 @@
-INFO     test:baseobject.py:98 -->>>开始测试用例3，这是接口url：http://twm.mikimobile.com:8023/queryDoor
-INFO     test:baseobject.py:99 这是接口入参：{"username": "", "tddid": "V10019100011143"}
-INFO     test:baseobject.py:100 这是请求头：None，这是接口返回值：{'timestamp': '2020-05-23T14:02:36.114+0000', 'status': 415, 'error': 'Unsupported Media Type', 'message': "Content type 'application/octet-stream' not supported", 'path': '/queryDoor'}

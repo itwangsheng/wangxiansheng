@@ -1,3 +1,0 @@
-INFO     test:baseobject.py:98 -->>>开始测试用例2，这是接口url：http://39.107.96.138:3000/api/v1/topic/5ec489fc4a9ca837ce157b3e
-INFO     test:baseobject.py:99 这是接口入参：None
-INFO     test:baseobject.py:100 这是请求头：None，这是接口返回值：{'success': True, 'data': {'id': '5ec489fc4a9ca837ce157b3e', 'author_id': '5d67af5b692231084ca27cce', 'tab': 'share', 'content': '<div class="markdown-text"><p>这是练习</p>\n</div>', 'title': '新建的主题', 'last_reply_at': '2020-05-20T01:38:04.950Z', 'good': False, 'top': False, 'reply_count': 0, 'visit_count': 3, 'create_at': '2020-05-20T01:38:04.950Z', 'author': {'loginname': 'user6', 'avatar_url': '//gravatar.com/avatar/16e09ab5d351698910ec3c31cf928134?size=48'}, 'replies': [], 'is_collect': False}}

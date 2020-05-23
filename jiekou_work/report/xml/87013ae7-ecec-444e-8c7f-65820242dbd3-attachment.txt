@@ -1,3 +1,0 @@
-INFO     test:baseobject.py:98 -->>>开始测试用例1，这是接口url：http://39.107.96.138:3000/api/v1/topics
-INFO     test:baseobject.py:99 这是接口入参：{"accesstoken": "1d0264a6-c90b-4120-91a1-e69e7a53bc1b", "title": "\u65b0\u5efa\u7684\u4e3b\u9898", "tab": "share", "content": "\u8fd9\u662f\u7ec3\u4e60"}
-INFO     test:baseobject.py:100 这是请求头：None，这是接口返回值：{'success': False, 'error_msg': '错误的accessToken'}
